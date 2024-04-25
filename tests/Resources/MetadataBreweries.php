@@ -16,7 +16,7 @@ describe('Metadata breweries', function () {
 
         // Assert
         expect($meta)->not()->toBeNull()
-            ->and($meta['total'])->toBe('8249')
+            ->and($meta['total'])->toBe('8257')
             ->and($meta['page'])->toBe('1')
             ->and($meta['per_page'])->toBe('50');
     });
@@ -32,7 +32,7 @@ describe('Metadata breweries', function () {
 
         // Assert
         expect($meta)->not()->toBeNull()
-            ->and($meta['total'])->toBe('4278')
+            ->and($meta['total'])->toBe('4282')
             ->and($meta['page'])->toBe('1')
             ->and($meta['per_page'])->toBe('50');
     });
